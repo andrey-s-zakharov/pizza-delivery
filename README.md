@@ -1,6 +1,9 @@
 `cd /vagrant`
+
 `python3.7 -m venv env`
+
 `source env/bin/activate`
+
 `sudo apt-get update`
 `sudo apt-get install mysql-server`
 `sudo systemctl start mysql`
